@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdishakur Abdi Hassan | Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/profile.jpg">
+</head>
+<body class="dark-theme">
+
+    <!-- Loading Preloader -->
+    <div id="preloader">
+        <div id="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <header id="header-navbar">
+        <nav id="navbar" class="container">
+            <a href="#home" id="nav-logo" class="logo">
+                Abdishakur<span>.</span>
+            </a>
+            
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="#home" class="nav-link active" id="link-home">Home</a></li>
+                <li><a href="#about" class="nav-link" id="link-about">About</a></li>
+                <li><a href="#skills" class="nav-link" id="link-skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
+                <li><a href="#resume" class="nav-link" id="link-resume">Resume</a></li>
+                <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+            </ul>
+
+            <div id="nav-actions" class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle dark/light theme">
+                    <i id="theme-icon" class="fas fa-sun"></i>
+                </button>
+                <button id="hamburger-btn" class="hamburger" aria-label="Toggle mobile menu">
+                    <span id="bar-1" class="bar"></span>
+                    <span id="bar-2" class="bar"></span>
+                    <span id="bar-3" class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Floating Background Shapes -->
+    <div id="bg-shapes" class="shapes-container">
+        <div id="shape-1" class="shape bubble"></div>
+        <div id="shape-2" class="shape bubble"></div>
+        <div id="shape-3" class="shape bubble"></div>
+        <div id="shape-4" class="shape bubble"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section section">
+        <div class="container hero-grid">
+            <div id="hero-info" class="hero-content reveal-left">
+                <span id="hero-greeting" class="subtitle">Welcome to my space</span>
+                <h1 id="hero-name" class="title">Abdishakur Abdi Hassan</h1>
+                <h2 id="hero-typed-title" class="typing-container">
+                    <span id="typing-text" class="typed-text"></span><span id="typing-cursor" class="cursor">|</span>
+                </h2>
+                <p id="hero-intro" class="description">
+                    I am a passionate Software Engineering student at Victoria University, Kampala, with a strong interest in web development and responsive website design. I enjoy building clean, modern, and user-friendly web applications using HTML, CSS, and JavaScript. I am always eager to learn new technologies and create innovative digital solutions.
+                </p>
+                <div id="hero-buttons" class="btn-group">
+                    <a href="#projects" id="btn-view-projects" class="btn btn-primary">
+                        View Projects <i class="fas fa-project-diagram"></i>
+                    </a>
+                    <a href="resume.pdf" download="Abdishakur_Resume.pdf" id="btn-download-resume-hero" class="btn btn-secondary">
+                        Download Resume <i class="fas fa-file-download"></i>
+                    </a>
+                    <a href="#contact" id="btn-contact-hero" class="btn btn-accent">
+                        Contact Me <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="hero-avatar" class="hero-image reveal-right">
+                <div id="avatar-frame" class="image-wrapper">
+                    <img src="/images/profile.jpg" alt="Abdishakur Abdi Hassan" id="profile-img" class="profile-pic" referrerPolicy="no-referrer">
+                    <div id="avatar-glow" class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+        <div id="hero-scroll-indicator" class="scroll-down">
+            <a href="#about" id="link-scroll-down">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section section bg-dark-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-subtitle">Get To Know Me</span>
+                <h2>About Me</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="about-grid">
+                <div id="about-intro-col" class="about-info reveal-left">
+                    <div id="about-objective-card" class="glass-card objective-card">
+                        <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3>Career Objective</h3>
+                        <p>
+                            A motivated Software Engineering student with a strong interest in web development, programming, and technology. Seeking opportunities to apply my technical skills, gain practical experience, and contribute positively to innovative software projects, internships, and hackathons.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="about-edu-col" class="about-education reveal-right">
+                    <h3 id="edu-heading"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div id="edu-card-vu" class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2023 - Present</div>
+                            <div class="timeline-content glass-card">
+                                <h4>Bachelor of Software Engineering</h4>
+                                <h5>Victoria University</h5>
+                                <p class="location-text"><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</p>
+                                <span class="badge badge-ongoing">Currently Studying</span>
+                            </div>
+                        </div>
+
+                        <div id="edu-card-salahudiin" class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Completed in 2023</div>
+                            <div class="timeline-content glass-card">
+                                <h4>High School Certificate</h4>
+                                <h5>Salahudiin School</h5>
+                                <p class="location-text"><i class="fas fa-map-marker-alt"></i> Baidoa, Somalia</p>
+                                <span class="badge badge-completed">Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-subtitle">My Technical Expertise</span>
+                <h2>My Skills</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- HTML5 Skill -->
+                <div id="skill-html" class="skill-card glass-card reveal">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-html"><i class="fab fa-html5"></i></div>
+                        <div class="skill-meta">
+                            <h3>HTML5</h3>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progress-bar-html" class="progress-bar" style="--percent: 90%;"></div>
+                    </div>
+                    <p class="skill-description">Semantic page structuring, SEO best practices, and accessible DOM hierarchies.</p>
+                </div>
+
+                <!-- CSS3 Skill -->
+                <div id="skill-css" class="skill-card glass-card reveal" style="transition-delay: 100ms;">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-css"><i class="fab fa-css3-alt"></i></div>
+                        <div class="skill-meta">
+                            <h3>CSS3</h3>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progress-bar-css" class="progress-bar" style="--percent: 90%;"></div>
+                    </div>
+                    <p class="skill-description">Advanced CSS Grid/Flexbox layouts, fluid custom animations, and glassmorphism styling.</p>
+                </div>
+
+                <!-- JavaScript Skill -->
+                <div id="skill-js" class="skill-card glass-card reveal" style="transition-delay: 200ms;">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-js"><i class="fab fa-js"></i></div>
+                        <div class="skill-meta">
+                            <h3>JavaScript</h3>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progress-bar-js" class="progress-bar" style="--percent: 80%;"></div>
+                    </div>
+                    <p class="skill-description">DOM manipulation, asynchronous operations, interactive animations, and event-driven scripting.</p>
+                </div>
+
+                <!-- Responsive Web Design Skill -->
+                <div id="skill-rwd" class="skill-card glass-card reveal" style="transition-delay: 300ms;">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-rwd"><i class="fas fa-laptop-code"></i></div>
+                        <div class="skill-meta">
+                            <h3>Responsive Design</h3>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progress-bar-rwd" class="progress-bar" style="--percent: 90%;"></div>
+                    </div>
+                    <p class="skill-description">Optimizing user experiences fluidly across screen sizes from mobile viewports to 4K displays.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects-section section bg-dark-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-subtitle">What I Have Done</span>
+                <h2>Featured Projects</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Calculator -->
+                <article id="project-calculator" class="project-card glass-card reveal">
+                    <div class="project-image-wrapper">
+                        <img src="/images/calculator.png" alt="CodeAlpha Calculator" class="project-img" referrerPolicy="no-referrer">
+                        <div class="project-overlay">
+                            <div class="overlay-buttons">
+                                <a href="https://github.com/abdishakur700/CodeAlpha_Calculator" target="_blank" rel="noopener noreferrer" class="project-icon-btn" title="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#home" class="project-icon-btn" title="Live Demo (Placeholder)">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Utility Tool</span>
+                        <h3 class="project-title">CodeAlpha Calculator</h3>
+                        <p class="project-desc">
+                            Developed a modern responsive calculator using HTML5, CSS3, and JavaScript. The application performs arithmetic calculations and features a clean user interface with responsive design.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <div class="project-links-row">
+                            <a href="https://github.com/abdishakur700/CodeAlpha_Calculator" target="_blank" rel="noopener noreferrer" class="link-btn text-link">
+                                GitHub Repo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#home" class="link-btn primary-btn">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Image Gallery -->
+                <article id="project-gallery" class="project-card glass-card reveal" style="transition-delay: 150ms;">
+                    <div class="project-image-wrapper">
+                        <img src="/images/image-gallery.png" alt="CodeAlpha Image Gallery" class="project-img" referrerPolicy="no-referrer">
+                        <div class="project-overlay">
+                            <div class="overlay-buttons">
+                                <a href="https://github.com/abdishakur700/CodeAlpha_ImageGallery" target="_blank" rel="noopener noreferrer" class="project-icon-btn" title="GitHub Repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#home" class="project-icon-btn" title="Live Demo (Placeholder)">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Interactive UI</span>
+                        <h3 class="project-title">CodeAlpha Image Gallery</h3>
+                        <p class="project-desc">
+                            Designed and developed a responsive image gallery with interactive hover effects, smooth transitions, and a clean layout using HTML5, CSS3, and JavaScript.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <div class="project-links-row">
+                            <a href="https://github.com/abdishakur700/CodeAlpha_ImageGallery" target="_blank" rel="noopener noreferrer" class="link-btn text-link">
+                                GitHub Repo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#home" class="link-btn primary-btn">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-subtitle">My Qualifications</span>
+                <h2>My Resume</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="resume-grid">
+                <!-- Left Column: Education & Achievements -->
+                <div id="resume-left-col" class="resume-col reveal-left">
+                    <div class="resume-block">
+                        <h3 class="block-title"><i class="fas fa-graduation-cap"></i> Education Overview</h3>
+                        <div class="resume-item glass-card">
+                            <h4 class="item-title">Bachelor of Software Engineering</h4>
+                            <p class="item-subtitle">Victoria University, Kampala</p>
+                            <p class="item-text">Currently pursuing comprehensive coursework in software development, core computer architecture, and design architectures. Focusing heavily on responsive web development and engineering principles.</p>
+                        </div>
+                        <div class="resume-item glass-card mt-4">
+                            <h4 class="item-title">High School Certificate</h4>
+                            <p class="item-subtitle">Salahudiin School, Baidoa</p>
+                            <p class="item-text">Completed high school in 2023 with excellence, fostering strong mathematical foundations and early programming interests.</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-block mt-6">
+                        <h3 class="block-title"><i class="fas fa-trophy"></i> Key Achievements</h3>
+                        <div class="resume-item glass-card">
+                            <ul class="achievements-list">
+                                <li>
+                                    <span class="achieve-bullet"></span>
+                                    <p>Developed responsive web applications adhering strictly to front-end development standards.</p>
+                                </li>
+                                <li>
+                                    <span class="achieve-bullet"></span>
+                                    <p>Built highly interactive and intuitive web interfaces utilizing native HTML5, CSS3, and JavaScript.</p>
+                                </li>
+                                <li>
+                                    <span class="achieve-bullet"></span>
+                                    <p>Active participant in multiple software development teams and open-source contributions.</p>
+                                </li>
+                                <li>
+                                    <span class="achieve-bullet"></span>
+                                    <p>Completed academic modules in Computer Architecture, Systems Programming, and Human Computer Interaction (HCI).</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Skills, Languages & Action -->
+                <div id="resume-right-col" class="resume-col reveal-right">
+                    <div class="resume-block">
+                        <h3 class="block-title"><i class="fas fa-tools"></i> Core Technical Stack</h3>
+                        <div class="resume-item glass-card">
+                            <div class="tech-grid">
+                                <div class="tech-item"><i class="fab fa-html5"></i> HTML5 Semantic Structure</div>
+                                <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3 Grid & Flexbox</div>
+                                <div class="tech-item"><i class="fab fa-js"></i> JavaScript ES6+</div>
+                                <div class="tech-item"><i class="fas fa-laptop-code"></i> Responsive Web Design</div>
+                                <div class="tech-item"><i class="fab fa-github"></i> Git & GitHub Control</div>
+                                <div class="tech-item"><i class="fas fa-palette"></i> Modern UI/UX Layouts</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-block mt-6">
+                        <h3 class="block-title"><i class="fas fa-language"></i> Languages</h3>
+                        <div class="resume-item glass-card">
+                            <div class="languages-flex">
+                                <div class="lang-item">
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-proficiency">Professional Proficiency</span>
+                                </div>
+                                <div class="lang-item">
+                                    <span class="lang-name">Somali</span>
+                                    <span class="lang-proficiency">Native Speaker</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="resume-download-card" class="resume-download-cta glass-card mt-6 text-center">
+                        <i class="fas fa-file-pdf cta-icon"></i>
+                        <h3>Interested in my profile?</h3>
+                        <p>Grab a copy of my comprehensive resume to view detailed credentials, course list, and project briefs.</p>
+                        <a href="/resume.pdf" download="Abdishakur_Resume.pdf" id="btn-download-resume-section" class="btn btn-primary mt-3">
+                            Download Resume <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section bg-dark-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2>Contact Me</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info cards -->
+                <div id="contact-info-col" class="contact-info reveal-left">
+                    <h3>Contact Information</h3>
+                    <p class="contact-greet">Feel free to reach out to me! Whether you want to discuss an upcoming project, discuss job opportunities, or just say hello, my inbox is always open.</p>
+                    
+                    <div class="contact-cards-container">
+                        <div class="contact-info-card glass-card">
+                            <div class="info-icon"><i class="fas fa-user"></i></div>
+                            <div class="info-details">
+                                <span>Full Name</span>
+                                <p>Abdishakur Abdi Hassan</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card glass-card">
+                            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="info-details">
+                                <span>Phone Number</span>
+                                <p>+256 766 288 905</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card glass-card">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="info-details">
+                                <span>Email Address</span>
+                                <p><a href="mailto:dibaacade142@gmail.com">dibaacade142@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card glass-card">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-details">
+                                <span>Current Location</span>
+                                <p>Kampala, Uganda</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Icons in Contact Column -->
+                    <div class="social-connect mt-6">
+                        <h4>Connect with me on:</h4>
+                        <div class="social-links-row">
+                            <a href="https://github.com/abdishakur700" target="_blank" rel="noopener noreferrer" id="social-github-contact" class="social-btn github">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/abdishakur-undefined-888905417" target="_blank" rel="noopener noreferrer" id="social-linkedin-contact" class="social-btn linkedin">
+                                <i class="fab fa-linkedin-in"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div id="contact-form-col" class="contact-form-wrapper glass-card reveal-right">
+                    <h3>Send a Message</h3>
+                    <form id="contact-form" class="form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="7125c58b-15d7-4314-9873-38f9b3815a96">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="form-name" name="name" placeholder="Mohamed" required>
+                            </div>
+                        </div>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="form-email" name="email" placeholder="example@gmail.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Subject <span class="required">*</span></label>
+                            <input type="text" id="form-subject" name="subject" placeholder="Collaboration / Job Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Your Message <span class="required">*</span></label>
+                            <textarea id="form-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" id="btn-submit-contact" class="btn btn-primary w-full">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div id="form-status" class="form-status-msg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="#home">Abdishakur<span>.</span></a>
+                <p>Software Engineering Student | Front-End Web Developer</p>
+            </div>
+            
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="footer-socials">
+                <a href="https://github.com/abdishakur700" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abdishakur-undefined-888905417" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:dibaacade142@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Abdishakur Abdi Hassan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="/script.js" defer></script>
+</body>
+</html>
