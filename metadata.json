@@ -2,5 +2,6 @@
   "name": "Personal Portfolio",
   "description": "A modern, professional, fully responsive personal portfolio website for Abdishakur Abdi Hassan, built with HTML5, CSS3, and JavaScript.",
   "requestFramePermissions": [],
+  "author": "Abdishakur Abdi Hassan",
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
