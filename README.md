@@ -39,8 +39,6 @@ The website is fully responsive and provides a smooth user experience across des
 
 ---
 
----
-
 ## 🚀 Getting Started
 
 ### Clone the repository
@@ -76,14 +74,12 @@ https://abdishakur700.github.io/CodeAlpha_Portfolio/
 ```
 
 
-
 ## Author
 
 Abdishakur
 
-- GitHub: https://github.com/YourUsername
-- LinkedIn: https://linkedin.com/in/YourUsername
-- Email: your@email.com
+- GitHub: https://github.com/abdishakur700
+- Email: dibaacade142@email.com
 
 ---
 
