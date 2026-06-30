@@ -60,8 +60,12 @@ Simply open the `index.html` file in your web browser.
 ---
 
 ## 📷 Screenshots
+![Home Page](https://github.com/abdishakur700/CodeAlpha_Portfolio/blob/523951b7ebdedb0e894acfde4b9aefc174dabd22/images/Homepage.png)
 
 
+### Projects Section
+
+![Projects](https://github.com/abdishakur700/CodeAlpha_Portfolio/blob/523951b7ebdedb0e894acfde4b9aefc174dabd22/images/Projects.png)
 
 ## 🌍 Live Demo
 
