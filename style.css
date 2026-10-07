@@ -836,6 +836,14 @@ body {
 .icon-css { color: #264de4; border: 1px solid rgba(38, 77, 228, 0.15); }
 .icon-js { color: #f7df1e; border: 1px solid rgba(247, 223, 30, 0.15); }
 .icon-rwd { color: var(--color-secondary); border: 1px solid rgba(6, 182, 212, 0.15); }
+.icon-django { color: #44b78b; border: 1px solid rgba(68, 183, 139, 0.15); }
+.icon-mongodb { color: #47a248; border: 1px solid rgba(71, 162, 72, 0.15); }
+.icon-git { color: #f05032; border: 1px solid rgba(240, 80, 50, 0.15); }
+.icon-node { color: #68a063; border: 1px solid rgba(104, 160, 99, 0.15); }
+.icon-python { color: #3776ab; border: 1px solid rgba(55, 118, 171, 0.15); }
+.icon-java { color: #f89820; border: 1px solid rgba(248, 152, 32, 0.15); }
+.icon-sql { color: #0078d4; border: 1px solid rgba(0, 120, 212, 0.15); }
+.icon-github { color: #f0f6fc; border: 1px solid rgba(240, 246, 252, 0.15); }
 
 .skill-card:hover .skill-icon {
     transform: scale(1.1);
