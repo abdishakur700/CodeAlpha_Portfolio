@@ -160,7 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const textArray = [
             "Software Engineering Student",
             "Front-End Web Developer",
-            "Responsive Web Designer"
+            "Responsive Web Designer",
+            "Full-Stack Developer"
         ];
         const typingSpeed = 100;
         const erasingSpeed = 60;

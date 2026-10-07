@@ -844,6 +844,7 @@ body {
 .icon-java { color: #f89820; border: 1px solid rgba(248, 152, 32, 0.15); }
 .icon-sql { color: #0078d4; border: 1px solid rgba(0, 120, 212, 0.15); }
 .icon-github { color: #f0f6fc; border: 1px solid rgba(240, 246, 252, 0.15); }
+.icon-figma { color: #f24e1e; border: 1px solid rgba(242, 78, 30, 0.2); }
 
 .skill-card:hover .skill-icon {
     transform: scale(1.1);

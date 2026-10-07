@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Wiki project preview</title>
+  <desc id="desc">A dark encyclopedia interface with a search field and article cards.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#background)"/>
+  <circle cx="1050" cy="95" r="230" fill="#22d3ee" opacity=".12"/>
+  <rect x="120" y="85" width="960" height="550" rx="26" fill="url(#panel)" stroke="#67e8f9" stroke-opacity=".35" stroke-width="3"/>
+  <rect x="120" y="85" width="960" height="90" rx="26" fill="#0f172a" opacity=".7"/>
+  <text x="175" y="142" fill="#f8fafc" font-family="Arial, sans-serif" font-size="32" font-weight="700">WIKI</text>
+  <rect x="365" y="112" width="520" height="42" rx="21" fill="#334155"/>
+  <text x="400" y="140" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Search the encyclopedia...</text>
+  <text x="175" y="245" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="42" font-weight="700">Explore knowledge</text>
+  <text x="175" y="282" fill="#94a3b8" font-family="Arial, sans-serif" font-size="20">Create, edit, and discover articles.</text>
+  <g>
+    <rect x="175" y="340" width="260" height="190" rx="16" fill="#1e3a5f" stroke="#38bdf8" stroke-opacity=".3"/>
+    <rect x="465" y="340" width="260" height="190" rx="16" fill="#164e63" stroke="#2dd4bf" stroke-opacity=".3"/>
+    <rect x="755" y="340" width="260" height="190" rx="16" fill="#312e81" stroke="#818cf8" stroke-opacity=".3"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="205" y="390" fill="#bae6fd" font-size="22" font-weight="700">Featured Article</text>
+    <text x="205" y="430" fill="#e2e8f0" font-size="18">Browse useful entries</text>
+    <text x="495" y="390" fill="#99f6e4" font-size="22" font-weight="700">Edit Content</text>
+    <text x="495" y="430" fill="#e2e8f0" font-size="18">Keep knowledge current</text>
+    <text x="785" y="390" fill="#c7d2fe" font-size="22" font-weight="700">Categories</text>
+    <text x="785" y="430" fill="#e2e8f0" font-size="18">Find topics faster</text>
+  </g>
+</svg>
